@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fiapp</string>
+    <string name="cadastro_game">Cadastro Game</string>
+    <string name="nome_do_jogo">Nome do Jogo</string>
+    <string name="nome_do_console">Nome do Console</string>
+    <string name="nota_do_game_ex_8">Nota do Game Ex:8</string>
+    <string name="adicionar">Adicionar</string>
+</resources>

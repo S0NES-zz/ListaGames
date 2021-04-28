@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroActivity">
+
+
+    <TextView
+        android:id="@+id/cadastroGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cadastro_game"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/ivCadastrar"
+        android:layout_width="100dp"
+        android:layout_marginTop="17dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cadastroGame"
+        />
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="143dp"
+        android:src="@drawable/ic_baseline_block_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cadastroGame" />
+
+    <EditText
+        android:id="@+id/etNomeJogo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_jogo"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivCadastrar" />
+
+    <EditText
+        android:id="@+id/etNomeConsole"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_console"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNomeJogo" />
+
+    <EditText
+        android:id="@+id/etNota"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nota_do_game_ex_8"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNomeConsole" />
+
+    <Button
+        android:id="@+id/btAdicionar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionar"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNota" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
