@@ -9,7 +9,7 @@ class DataSource {
         return listOf<Jogos>(
                 Jogos("Uncharted", "PS4", 10.0, R.drawable.ic_baseline_camera_alt_24),
                 Jogos("Batman Arkham Knight", "PC/PS4", 10.0, R.drawable.ic_baseline_camera_alt_24),
-                Jogos("Hentai Girl Fantasy", "PC", 10.0, R.drawable.ic_baseline_camera_alt_24)
+                Jogos("Transistor", "PC/SWITCH/PS4/XBOX", 50.0/100, R.drawable.ic_baseline_camera_alt_24)
         )
     }
 
